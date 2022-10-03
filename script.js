@@ -9,10 +9,11 @@ let saveEl=document.getElementById("save-el")
 
 
  function save(){
-    let counter =count+"-"
-    saveEl.innerText +=counter
-  console.log(saveEl.innerText)
+  let counter =count+" - "
+  saveEl.textContent +=counter
+  console.log(saveEl.textContent)
+  countEL.innerText=0
+  count = 0
 }
-
 
 
