@@ -1,0 +1,13 @@
+body {
+   margin-left: 30%;
+   margin-top: 20%;  
+}
+
+#shoe-img {
+    width: 300px;   
+}
+
+#error {
+    color: red;
+    font-size: large;
+}
